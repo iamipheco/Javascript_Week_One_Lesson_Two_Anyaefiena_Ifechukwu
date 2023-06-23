@@ -1,9 +1,9 @@
-let value = 1; // Declared and assigned a numeric value
+const value = 1 // Declared and assigned a numeric value
 
 if (value < 0) {
-  console.log("The value is negative."); // Output: "The value is negative."
+  console.log('The value is negative.') // Output: "The value is negative."
 } else if (value > 0) {
-  console.log("The value is positive."); // Output: "The value is positive."
+  console.log('The value is positive.') // Output: "The value is positive."
 } else {
-  console.log("The value is zero."); // Output: "The value is zero."
+  console.log('The value is zero.') // Output: "The value is zero."
 }
